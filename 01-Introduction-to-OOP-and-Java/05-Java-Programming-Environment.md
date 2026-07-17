@@ -1059,45 +1059,15 @@ The resulting bytecode can then run on any operating system that has a compatibl
 
 ## How WORA Works
 
-```
-Write Java Program
+## Write Once, Run Anywhere (WORA)
 
-        │
-
-        ▼
-
-Compile Once
-
-        │
-
-        ▼
-
-Bytecode (.class)
-
-        │
-
- ┌──────┼────────┬─────────┐
-
- ▼      ▼        ▼         ▼
-
-Windows Linux macOS Solaris
-
- ▼      ▼        ▼         ▼
-
-Windows JVM Linux JVM macOS JVM Solaris JVM
-
-        │
-
-        ▼
-
-Machine Code
-
-        │
-
-        ▼
-
-Program Runs Successfully
-```
+<p align="center">
+    <img src="https://balasubramanyamlanka.com/assets/img/blog/platform-independent-wora.jpg"
+         alt="Write Once Run Anywhere (WORA)"
+         width="750">
+    <br>
+    <b>Figure 3: Write Once, Run Anywhere (WORA)</b>
+</p>
 
 ---
 
@@ -1133,9 +1103,8 @@ Program Runs Successfully
   <img src="https://miro.medium.com/1*LuKOZMDCX8e1zDyGyMUu_w.png"
        alt="Relationship between JDK, JRE and JVM"
        width="700">
+    <b>Figure: JDK - JRE - JVM</b>
 </p>
-
----
 
 # Complete Java Program Execution Process
 
@@ -1144,9 +1113,8 @@ Program Runs Successfully
        alt="Java Program Execution Process"
        width="750">
   <br>
-  <b>Figure 2: Java Program Execution Process</b>
+  <b>Figure: Java Program Execution Process</b>
 </p>
----
 
 # Frequently Asked Exam Questions
 
