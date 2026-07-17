@@ -1134,27 +1134,6 @@ Program Runs Successfully
        alt="Relationship between JDK, JRE and JVM"
        width="700">
 </p>
-```
-+-------------------------------------------------------+
-|                       JDK                             |
-|          (Java Development Kit)                       |
-|                                                       |
-|   +-----------------------------------------------+   |
-|   |                    JRE                        |   |
-|   |         (Java Runtime Environment)           |   |
-|   |                                               |   |
-|   |   +--------------------------------------+    |   |
-|   |   |               JVM                    |    |   |
-|   |   |      Java Virtual Machine            |    |   |
-|   |   +--------------------------------------+    |   |
-|   |                                               |   |
-|   |      Java Class Libraries                    |   |
-|   +-----------------------------------------------+   |
-|                                                       |
-| Development Tools                                     |
-| javac • java • jar • javadoc • jdb                   |
-+-------------------------------------------------------+
-```
 
 ---
 
