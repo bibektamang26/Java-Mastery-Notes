@@ -1127,6 +1127,13 @@ Program Runs Successfully
 
 # Relationship Between JDK, JRE and JVM
 
+## Relationship between JDK, JRE and JVM
+
+<p align="center">
+  <img src="https://miro.medium.com/1*LuKOZMDCX8e1zDyGyMUu_w.png"
+       alt="Relationship between JDK, JRE and JVM"
+       width="700">
+</p>
 ```
 +-------------------------------------------------------+
 |                       JDK                             |
