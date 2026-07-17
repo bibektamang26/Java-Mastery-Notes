@@ -77,6 +77,35 @@ Java Source Code (.java)
 
 ---
 
+# History of Java
+
+Java was developed by **James Gosling**, **Mike Sheridan**, and **Patrick Naughton** at **Sun Microsystems**. Development began in **1991** as part of the **Green Project**, whose goal was to create software for consumer electronic devices such as televisions and set-top boxes.
+
+Initially, the language was named **Oak**, inspired by the oak tree outside James Gosling's office. However, the name "Oak" was already registered as a trademark by another company, so it had to be changed.
+
+In **1995**, the language was officially renamed **Java** and released to the public. The name "Java" was inspired by Java coffee, reflecting the team's informal brainstorming sessions over coffee.
+
+One of Java's biggest innovations was its ability to run the same program on different operating systems without recompilation. This concept became known as **Write Once, Run Anywhere (WORA)** and remains one of Java's defining features.
+
+In **2010**, **Oracle Corporation** acquired Sun Microsystems and became the owner and primary developer of Java. Today, Oracle continues to release new Java versions with improved features, performance, and security.
+
+---
+
+## Timeline of Java
+
+| Year        | Event                                                                   |
+| ----------- | ----------------------------------------------------------------------- |
+| **1991**    | Green Project started at Sun Microsystems.                              |
+| **1991**    | Java was initially named **Oak**.                                       |
+| **1995**    | Renamed to **Java** and officially released.                            |
+| **1996**    | JDK 1.0 released.                                                       |
+| **2004**    | Java 5 introduced Generics, Enhanced for-loop, Annotations, and more.   |
+| **2010**    | Oracle acquired Sun Microsystems.                                       |
+| **2014**    | Java 8 introduced Lambda Expressions and Streams API.                   |
+| **Present** | Java continues to evolve with regular Long-Term Support (LTS) releases. |
+
+---
+
 ## Why is Java Popular?
 
 Java is one of the most popular programming languages because it provides many useful features:
