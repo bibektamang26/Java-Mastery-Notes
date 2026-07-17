@@ -177,8 +177,8 @@ Once you have a strong understanding of Java SE, you can move on to:
                        ▼
                 Java SE (Core Java)
                        │
-         ┌─────────────┴─────────────┐
-         ▼                           ▼
+            ┌─────────────┴─────────────┐
+            ▼                           ▼
 
 Jakarta EE / Spring Boot Java ME
 (Web & Enterprise Apps) (Embedded & IoT)
