@@ -1064,7 +1064,7 @@ The resulting bytecode can then run on any operating system that has a compatibl
 <p align="center">
     <img src="https://balasubramanyamlanka.com/assets/img/blog/platform-independent-wora.jpg"
          alt="Write Once Run Anywhere (WORA)"
-         width="750">
+         width="60%">
     <br>
     <b>Figure 3: Write Once, Run Anywhere (WORA)</b>
 </p>
