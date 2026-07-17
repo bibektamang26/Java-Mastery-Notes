@@ -796,65 +796,15 @@ Program Output
 
 ---
 
-# Complete Execution Flow Diagram
+## Complete Java Program Execution Flow
 
-```
-                Programmer
-
-                     │
-
-                     ▼
-
-        Java Source Code (.java)
-
-                     │
-
-                     ▼
-
-          Java Compiler (javac)
-
-                     │
-
-                     ▼
-
-            Bytecode (.class)
-
-                     │
-
-                     ▼
-
-              Class Loader
-
-                     │
-
-                     ▼
-
-          Bytecode Verifier
-
-                     │
-
-                     ▼
-
-          Execution Engine
-
-                     │
-
-                     ▼
-
-             Machine Code
-
-                     │
-
-                     ▼
-
-           Operating System
-
-                     │
-
-                     ▼
-
-              Program Output
-```
+<p align="center">
+    <img src="https://miro.medium.com/0*4NnceIUku3NgtfDs"
+         alt="Complete Java Program Execution Flow"
+         width="75%">
+    <br>
+    <b>Figure: Complete Java Program Execution Flow</b>
+</p>
 
 ---
 
@@ -901,13 +851,13 @@ The Execution Engine mainly consists of:
 - Just-In-Time (JIT) Compiler
 - Garbage Collector
 
-```
-Execution Engine
-│
-├── Interpreter
-├── JIT Compiler
-└── Garbage Collector
-```
+<p align="center">
+    <img src="https://miro.medium.com/v2/resize:fit:1400/1*8MBpa6DeJWfIMbP-FpSveQ.png"
+         alt="Components of the Java Execution Engine"
+         width="70%">
+    <br>
+    <b>Figure: Components of the Java Execution Engine</b>
+</p>
 
 ---
 
@@ -953,40 +903,13 @@ This significantly increases the execution speed of Java programs.
 
 ## Working of JIT Compiler
 
-```
-Bytecode
-
-    │
-
-    ▼
-
-Interpreter Executes Code
-
-    │
-
-Frequently Used?
-
-    │
-
-   Yes
-
-    ▼
-
-JIT Compiler
-
-    │
-
-    ▼
-
-Machine Code Stored
-
-    │
-
-    ▼
-
-Future Executions Become Faster
-```
-
+<p align="center">
+    <img src="https://miro.medium.com/v2/resize:fit:1400/1*ZAzYxBXnTKl6RGZ9jvZmvg.jpeg"
+         alt="Java Program Execution Process"
+         width="70%">
+    <br>
+    <b>Figure: Working of JIT Compiler in Java</b>
+</p>
 ---
 
 ## Advantages of JIT Compiler
