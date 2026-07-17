@@ -575,7 +575,6 @@ This is the secret behind Java's platform independence.
     <br>
     <b>Figure: Bytecode Generation</b>
 </p>
----
 
 ## Advantages of Bytecode
 
@@ -625,7 +624,7 @@ The Class Loader performs the following tasks:
 ## JVM Architecture
 
 <p align="center">
-    <img src="https://legacy-us-images.foundryco.app/images/article/2023/06/classloaders-fig1-100942398-large.jpg?auto=webp&quality=85,70"
+    <img src="https://amn24.medium.com/java-day-34-96e35f5ad4b2"
          alt="class loading process"
          width="80%">
     <br>
