@@ -566,28 +566,15 @@ This is the secret behind Java's platform independence.
 
 ## Bytecode Generation
 
-```
-Source Code (.java)
+## Java Platform Independence (Write Once, Run Anywhere)
 
-        │
-
-        ▼
-
-Java Compiler (javac)
-
-        │
-
-        ▼
-
-Bytecode (.class)
-
-        │
-
-        ▼
-
-Java Virtual Machine
-```
-
+<p align="center">
+    <img src="https://miro.medium.com/1*oj5XGBkMkU8J62xgMn4Rdw.jpeg"
+         alt="Java Platform Independence (WORA)"
+         width="75%">
+    <br>
+    <b>Figure: Bytecode Generation</b>
+</p>
 ---
 
 ## Advantages of Bytecode
@@ -635,27 +622,15 @@ The Class Loader performs the following tasks:
 
 ## Class Loading Process
 
-```
-.class File
+## JVM Architecture
 
-      │
-
-      ▼
-
-Class Loader
-
-      │
-
-      ▼
-
-JVM Memory
-
-      │
-
-      ▼
-
-Execution
-```
+<p align="center">
+    <img src="https://legacy-us-images.foundryco.app/images/article/2023/06/classloaders-fig1-100942398-large.jpg?auto=webp&quality=85,70"
+         alt="class loading process"
+         width="80%">
+    <br>
+    <b>Figure: Class Loading Process</b>
+</p>
 
 ---
 
@@ -719,80 +694,6 @@ HelloWorld.java
 ```
 
 The complete execution process is as follows.
-
-```
-Step 1
-
-Write Java Source Code
-
-        │
-
-        ▼
-
-HelloWorld.java
-
-────────────────────────────────────────────
-
-Step 2
-
-Compile using javac
-
-        │
-
-        ▼
-
-HelloWorld.class
-
-(Bytecode Generated)
-
-────────────────────────────────────────────
-
-Step 3
-
-Class Loader loads bytecode
-
-        │
-
-        ▼
-
-JVM Memory
-
-────────────────────────────────────────────
-
-Step 4
-
-Bytecode Verifier checks security
-
-        │
-
-        ▼
-
-Verified Bytecode
-
-────────────────────────────────────────────
-
-Step 5
-
-Execution Engine executes bytecode
-
-        │
-
-        ▼
-
-Machine Code
-
-────────────────────────────────────────────
-
-Step 6
-
-Operating System executes Machine Code
-
-        │
-
-        ▼
-
-Program Output
-```
 
 ---
 
