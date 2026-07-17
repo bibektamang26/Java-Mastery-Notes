@@ -169,18 +169,3 @@ Once you have a strong understanding of Java SE, you can move on to:
 # Summary
 
 ## Java Editions allow developers to choose the right platform based on the type of application they want to build. Java SE provides the core language and libraries for general programming. Java EE (Jakarta EE) extends Java SE with technologies for enterprise and web applications, while Java ME offers a lightweight platform for embedded systems and IoT devices. Understanding these editions helps developers select the appropriate Java platform for their software projects.
-
----
-
-                   Learn Java
-                       │
-                       ▼
-                Java SE (Core Java)
-                       │
-            ┌─────────────┴─────────────┐
-            ▼                           ▼
-
-Jakarta EE / Spring Boot Java ME
-(Web & Enterprise Apps) (Embedded & IoT)
-
----
