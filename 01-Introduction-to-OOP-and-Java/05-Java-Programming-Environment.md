@@ -1139,70 +1139,13 @@ Program Runs Successfully
 
 # Complete Java Program Execution Process
 
-```
-Write Java Program (.java)
-
-        │
-
-        ▼
-
-Compile using javac (JDK)
-
-        │
-
-        ▼
-
-Bytecode (.class)
-
-        │
-
-        ▼
-
-Class Loader
-
-        │
-
-        ▼
-
-Bytecode Verifier
-
-        │
-
-        ▼
-
-Execution Engine
-
-        │
-
-        ├──────────────► Interpreter
-
-        │
-
-        ├──────────────► JIT Compiler
-
-        │
-
-        └──────────────► Garbage Collector
-
-        │
-
-        ▼
-
-Machine Code
-
-        │
-
-        ▼
-
-Operating System
-
-        │
-
-        ▼
-
-Program Output
-```
-
+<p align="center">
+  <img src="https://miro.medium.com/0*D56_ee0bcQCYrbpQ.png"
+       alt="Java Program Execution Process"
+       width="750">
+  <br>
+  <b>Figure 2: Java Program Execution Process</b>
+</p>
 ---
 
 # Frequently Asked Exam Questions
