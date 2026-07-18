@@ -52,7 +52,7 @@ If `age` were `15` instead, the first `println` would simply be skipped, and onl
 
 <p align="center">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS80P5_OyoBKmUHFxzFExqxF2uJmJcsJAdHaTW-rtcXB4TLCCMVcstwLw&s=10"
-         alt="class loading process"
+         alt="if statment"
          width="70%">
     <br>
 </p>
@@ -95,7 +95,7 @@ Fail
 
 <p align="center">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIkJAKbgDowZOM3ZZUGcgSNPjUkaJC-tZZDXbILEEHxmb_1cTRElJf0h4&s=10"
-         alt="class loading process"
+         alt="if-else statement"
          width="70%">
     <br>
 </p>
@@ -281,7 +281,7 @@ Because there's no `break` after `case 2`, execution "falls through" into `case 
 
 <p align="center">
     <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230224161406/switch-case-in-c.png"
-         alt="class loading process"
+         alt="switch statement"
          width="70%">
     <br>
 </p>
@@ -363,7 +363,7 @@ System.out.println(type);  // Weekend
 
 <p align="center">
     <img src="https://img.brainkart.com/imagebk37/tNKIWwx.jpg"
-         alt="class loading process"
+         alt="if-esle ladder"
          width="70%">
     <br>
 </p>
@@ -372,7 +372,7 @@ System.out.println(type);  // Weekend
 
 <p align="center">
     <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230224161406/switch-case-in-c.png"
-         alt="class loading process"
+         alt="switch statement"
          width="70%">
     <br>
 </p>
