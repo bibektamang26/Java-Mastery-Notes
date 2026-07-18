@@ -412,7 +412,7 @@ System.out.println(type);  // Weekend
     alt="Switch vs If-Else Comparison"
     style="max-width: 70%; height: auto; border-radius: 8px;"
   />
-  <figcaption><em>If else Ladder</em></figcaption>
+  <span style = "text-align:center;">if else Ladder </span>
 </figure>
 
 **`switch` flow:**
@@ -423,7 +423,7 @@ System.out.println(type);  // Weekend
     alt="Switch vs If-Else Comparison"
     style="width: 70%; height: auto; border-radius: 8px;"
   />
-  <figcaption><em>If else Ladder</em></figcaption>
+  <span style = "text-align:center;">switch statement</span>
 </figure>
 
 ---
