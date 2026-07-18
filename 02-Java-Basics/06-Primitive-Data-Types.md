@@ -10,22 +10,6 @@ This chapter provides a complete, in-depth look at Java's eight primitive data t
 
 ---
 
-## Learning Objectives
-
-By the end of this chapter, you should be able to:
-
-- Define what data and data types mean in the context of programming
-- Explain why data types are necessary in a language like Java
-- Classify Java's data types into primitive and non-primitive categories
-- List all eight primitive data types along with their size and range
-- Understand how primitive values are stored in memory
-- Use correct literals and type suffixes for different data types
-- Identify and avoid numeric overflow issues
-- Choose the most appropriate data type for a given situation
-- Answer common interview, viva, and university exam questions on this topic
-
----
-
 ## What is Data?
 
 **Data** is any piece of raw information that a computer can store, process, or transmit. It could be a number like `25`, a character like `'A'`, a truth value like `true`, or a sequence of characters like `"Hello"`.
