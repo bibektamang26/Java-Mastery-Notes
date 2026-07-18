@@ -43,29 +43,13 @@ After completing this chapter, you will be able to:
 
 **Diagram:**
 
-```
-   ┌────────────────┐
-   │ Initialization  │
-   └────────┬────────┘
-            ▼
-      ◇──────────◇
-      │ Condition? │◄────────┐
-      ◇─────┬──────◇         │
-      True  │  False         │
-        ▼         │          │
-  ┌───────────┐   │          │
-  │ Loop Body │   │          │
-  └─────┬─────┘   │          │
-        ▼         │          │
-   ┌─────────┐    │          │
-   │ Update  │    │          │
-   └────┬────┘    │          │
-        └─────────┼──────────┘
-                   ▼
-                 ┌───────┐
-                 │  End  │
-                 └───────┘
-```
+<p align="center">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeMIZal9Z2YL75XXvfIlaXeVBCLpyPpZw-yWd6FGo6AEumfIIj-Upm6tA&s=10"
+         alt="loop"
+         width="70%">
+    <br>
+    <b>Figure:Loop </b>
+</p>
 
 ---
 
