@@ -278,7 +278,7 @@ Used while declaring methods.
 Example:
 
 ```java
-int age = 20;      // Correct
+int rollNumber = 20;      // Correct
 
 int while = 20;    // Incorrect
 ```
