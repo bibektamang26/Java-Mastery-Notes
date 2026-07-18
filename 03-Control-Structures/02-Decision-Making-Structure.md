@@ -334,17 +334,17 @@ Because there's no `break` after `case 2`, execution "falls through" into `case 
 
 ## switch vs if-else
 
-| Aspect                                | `switch`                                                            | `if-else` (ladder)                                          |
-| ------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------- | ---------------------- | --------------- |
-| Best suited for                       | Checking one variable against many discrete constant values         | Checking complex or range-based conditions                  |
-| Condition type                        | Equality comparison only (`==` against constants)                   | Any boolean expression (ranges, logical combinations, etc.) |
-| Readability                           | Cleaner and more readable for many fixed values                     | Can become long and harder to read with many conditions     |
-| Data types supported                  | `byte`, `short`, `char`, `int`, wrapper types, `String`, `enum`     | Any type that can form a boolean expression                 |
-| Fall-through behavior                 | Possible if `break` is omitted                                      | Not applicable — each block is independent                  |
-| Performance                           | Can be more efficient for many cases (compiler may use jump tables) | Evaluated sequentially, condition by condition              |
-| Range checks (e.g., `marks >= 40`)    | Not directly supported                                              | Naturally supported                                         |
-| Multiple conditions combined (`&&`, ` |                                                                     | `)                                                          | Not supported directly | Fully supported |
-| Example use case                      | Menu selection, day-of-week lookup                                  | Grade calculation based on mark ranges                      |
+| Aspect                                      | `switch`                                                            | `if-else` (ladder)                                          |
+| ------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------- |
+| Best suited for                             | Checking one variable against many discrete constant values         | Checking complex or range-based conditions                  |
+| Condition type                              | Equality comparison only (`==` against constants)                   | Any boolean expression (ranges, logical combinations, etc.) |
+| Readability                                 | Cleaner and more readable for many fixed values                     | Can become long and harder to read with many conditions     |
+| Data types supported                        | `byte`, `short`, `char`, `int`, wrapper types, `String`, `enum`     | Any type that can form a boolean expression                 |
+| Fall-through behavior                       | Possible if `break` is omitted                                      | Not applicable — each block is independent                  |
+| Performance                                 | Can be more efficient for many cases (compiler may use jump tables) | Evaluated sequentially, condition by condition              |
+| Range checks (e.g., `marks >= 40`)          | Not directly supported                                              | Naturally supported                                         |
+| Multiple conditions combined (`&&`, `\|\|`) | Not supported directly                                              | Fully supported                                             |
+| Example use case                            | Menu selection, day-of-week lookup                                  | Grade calculation based on mark ranges                      |
 
 ---
 
