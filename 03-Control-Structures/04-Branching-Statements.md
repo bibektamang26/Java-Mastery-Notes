@@ -172,7 +172,7 @@ break;
 ## Flow of Execution
 
 <p align="center">
-    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240214162718/While-Loop-GeeksforGeeks.jpg"
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOP7S3vyVvnDkSe21EULH_d9lMDxv4K5caSIIjafhgb9JnvHFhuG8CSaI&s=10"
          alt="break statement flow"
          width="70%">
     <br>
