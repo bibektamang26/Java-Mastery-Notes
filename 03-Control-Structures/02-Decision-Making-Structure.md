@@ -50,26 +50,12 @@ If `age` were `15` instead, the first `println` would simply be skipped, and onl
 
 **Flowchart:**
 
-```
-        ┌───────┐
-        │ Start │
-        └───┬───┘
-            ▼
-      ◇───────────◇
-      │ condition? │
-      ◇─────┬──────◇
-      True  │  False
-         ▼         │
-   ┌──────────┐    │
-   │ Execute  │    │
-   │  block   │    │
-   └────┬─────┘    │
-        └─────┬─────┘
-              ▼
-            ┌───────┐
-            │  End  │
-            └───────┘
-```
+<p align="center">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS80P5_OyoBKmUHFxzFExqxF2uJmJcsJAdHaTW-rtcXB4TLCCMVcstwLw&s=10"
+         alt="class loading process"
+         width="70%">
+    <br>
+</p>
 
 ---
 
@@ -107,26 +93,12 @@ Fail
 
 **Flowchart:**
 
-```
-        ┌───────┐
-        │ Start │
-        └───┬───┘
-            ▼
-      ◇───────────◇
-      │ condition? │
-      ◇─────┬──────◇
-      True  │  False
-        ▼         ▼
-  ┌─────────┐ ┌─────────┐
-  │  if     │ │  else   │
-  │  block  │ │  block  │
-  └────┬────┘ └────┬────┘
-       └─────┬──────┘
-             ▼
-           ┌───────┐
-           │  End  │
-           └───────┘
-```
+<p align="center">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIkJAKbgDowZOM3ZZUGcgSNPjUkaJC-tZZDXbILEEHxmb_1cTRElJf0h4&s=10"
+         alt="class loading process"
+         width="70%">
+    <br>
+</p>
 
 ---
 
@@ -307,29 +279,12 @@ Because there's no `break` after `case 2`, execution "falls through" into `case 
 
 **Flowchart:**
 
-```
-        ┌───────┐
-        │ Start │
-        └───┬───┘
-            ▼
-   ┌────────────────────┐
-   │ Evaluate expression │
-   └──────────┬───────────┘
-              ▼
-      ◇─────────────◇
-      │ Matches case?│──No──▶ default block
-      ◇──────┬────────◇
-            Yes
-              ▼
-       Matching case block
-              ▼
-             break
-              ▼
-            ┌───────┐
-            │  End  │
-            └───────┘
-```
-
+<p align="center">
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230224161406/switch-case-in-c.png"
+         alt="class loading process"
+         width="70%">
+    <br>
+</p>
 ---
 
 ## switch vs if-else
