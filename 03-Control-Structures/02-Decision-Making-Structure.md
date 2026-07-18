@@ -406,24 +406,21 @@ System.out.println(type);  // Weekend
 
 **Combined decision-making flow (else-if ladder style):**
 
-<figure style="align: center;">
-  <img
-    src="https://img.brainkart.com/imagebk37/tNKIWwx.jpg"
-    alt="Switch vs If-Else Comparison"
-    style="max-width: 70%; height: auto; border-radius: 8px;"
-  />
-</figure>
+<p align="center">
+    <img src="https://img.brainkart.com/imagebk37/tNKIWwx.jpg"
+         alt="class loading process"
+         width="70%">
+    <br>
+</p>
 
 **`switch` flow:**
 
-<figure style="align: center;">
-  <img
-    src="https://media.geeksforgeeks.org/wp-content/uploads/20230224161406/switch-case-in-c.png"
-    alt="Switch vs If-Else Comparison"
-    style="width: 70%; height: auto; border-radius: 8px;"
-  />
-</figure>
-
+<p align="center">
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230224161406/switch-case-in-c.png"
+         alt="class loading process"
+         width="70%">
+    <br>
+</p>
 ---
 
 ## Examples
