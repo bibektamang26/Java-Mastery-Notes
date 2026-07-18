@@ -406,47 +406,25 @@ System.out.println(type);  // Weekend
 
 **Combined decision-making flow (else-if ladder style):**
 
-```
-        ┌───────┐
-        │ Start │
-        └───┬───┘
-            ▼
-      ◇────────────◇
-      │ condition1? │──True──▶ Block 1 ──┐
-      ◇─────┬───────◇                    │
-           False                         │
-            ▼                            │
-      ◇────────────◇                     │
-      │ condition2? │──True──▶ Block 2 ──┤
-      ◇─────┬───────◇                    │
-           False                         │
-            ▼                            │
-        Block (else) ────────────────────┤
-                                          ▼
-                                      ┌───────┐
-                                      │  End  │
-                                      └───────┘
-```
+<figure style="text-align: center;">
+  <img
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxOH0mfQyAMvdm3fgTHh6wE03jiVIZlkLybnsTcE5R9BgjNBUh_JN8dQc&s=10"
+    alt="Switch vs If-Else Comparison"
+    style="max-width: 100%; height: auto; border-radius: 8px;"
+  />
+  <figcaption><em>If else Ladder</em></figcaption>
+</figure>
 
 **`switch` flow:**
 
-```
-        ┌───────┐
-        │ Start │
-        └───┬───┘
-            ▼
-   Evaluate switch expression
-            │
-   ┌────────┼─────────┬───────────┐
-   ▼        ▼          ▼           ▼
-case 1   case 2     case 3     default
-   │        │          │           │
-   └────────┴────┬─────┴───────────┘
-                  ▼
-              ┌───────┐
-              │  End  │
-              └───────┘
-```
+<figure style="text-align: center;">
+  <img
+    src="https://media.geeksforgeeks.org/wp-content/uploads/20230224161406/switch-case-in-c.png"
+    alt="Switch vs If-Else Comparison"
+    style="max-width: 100%; height: auto; border-radius: 8px;"
+  />
+  <figcaption><em>If else Ladder</em></figcaption>
+</figure>
 
 ---
 
