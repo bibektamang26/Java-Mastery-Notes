@@ -281,7 +281,7 @@ Default values apply only to **instance variables** and **static/class variables
 
 ```java
 class Demo {
-    byte b;       // 0
+    byte a;       // 0
     short s;      // 0
     int i;        // 0
     long l;       // 0L
