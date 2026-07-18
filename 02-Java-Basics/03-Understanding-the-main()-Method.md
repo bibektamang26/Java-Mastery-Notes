@@ -384,7 +384,7 @@ Program
 
 1. Explain the structure of the `main()` method.
 2. Describe the purpose of each keyword used in the `main()` method.
-3. Explain how the JVM starts executing a Java program.
+3. Explain how the JVM helps in program execution.
 
 ---
 
