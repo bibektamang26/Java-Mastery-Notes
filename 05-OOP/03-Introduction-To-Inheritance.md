@@ -1,4 +1,4 @@
-# 02. Inheritance in Java
+# 03. Inheritance in Java
 
 ---
 
