@@ -1,4 +1,4 @@
-# 04. The `super` Keyword in Java
+# 05. The `super` Keyword in Java
 
 ---
 
